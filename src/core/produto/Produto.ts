@@ -1,17 +1,15 @@
-import Especificacoes from "./Especificacoes"
-import Precificavel from "./Precificavel"
+import Especificacoes from './Especificacoes'
+import Precificavel from './Precificavel'
 
-export default interface Produto extends Precificavel{
+export default interface Produto extends Precificavel {
     id: number
     nome: string
-    descrição: string
-    preço: number
+    descricao: string
     marca: string
     modelo: string
     imagem: string
     videoReview: string
     nota: number
-    tags: string []
+    tags: string[]
     especificacoes: Especificacoes
-    
 }
