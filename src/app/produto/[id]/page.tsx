@@ -5,3 +5,4 @@ export default function PaginaProduto(props: any) {
     const produto = produtos.find((p) => p.id === id)
     return produto ? <div>{produto?.nome}</div> : <div>Produto não encontrado</div>
 }
+//testte
